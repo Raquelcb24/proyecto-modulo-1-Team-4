@@ -55,7 +55,7 @@
 .fortalezas, .debilidades{
     margin-left: 15%;
     margin-right: 15%;
-
+}
 .quienes {
 
     border: solid 1px black;
@@ -86,11 +86,8 @@
     list-style: none;
     text-align: center;
 }
-.logo{
-    height: 45px;
-   position: absolute;
-   top: 15%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-    
+.imagen-logo {
+    width: 100%;
+    max-width: 110px;
+
 }
