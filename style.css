@@ -6,6 +6,16 @@
     --parrafo: open-sans, sans-serif;
     --titulo: rubik medium, sans-serif;
 }
+
+.quienes {
+
+    border: solid 1px black;
+}
+.member {
+    display: block;
+    border: solid 1px red;
+   
+}
 .footer{
     width: 100%;
     border: solid 1px #b8b8b9;
