@@ -14,8 +14,9 @@
 }
 .banner-span{
     display: inline-block;
-    border: 1px solid black;
     background-color: white;
+    font-family: var(--parrafo);
+    font-weight: 600;
     padding: 5%;
     width: 70%;
     position: absolute;
@@ -24,13 +25,36 @@
     transform: translate(-50%, -50%);
 /*    z-index: 100;*/
 }
+.equipo{
+    margin-top: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .equipo h2{
     color:var(--aqua);
     font-family: var(--titulo);
 }
 .equipo p{
+    padding-top: 20px;
     color:var(--gris);
     font-family: var(--parrafo);
+    text-align: center;
+}
+.fort-deb{
+    background-color: var(--gris-claro);
+    opacity: 0.2;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.fortalezas, .debilidades{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .footer{
     width: 100%;
