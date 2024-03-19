@@ -55,16 +55,62 @@
 .fortalezas, .debilidades{
     margin-left: 15%;
     margin-right: 15%;
-
-.quienes {
-
-    border: solid 1px black;
 }
+
+.quienes-somos {
+    margin-top: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+ 
+}
+
+.quienes-somos h2 {
+    width: 100%;
+    padding: 20px;
+    color:var(--aqua);
+    font-family: var(--titulo);
+    text-align: center;
+}
+
 .member {
-    display: block;
+    display: inline-block;
+    flex-wrap: wrap;
     border: solid 1px red;
+    
+
    
 }
+
+.imagen{
+
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+  width: 100px;
+  border: solid 1px black
+}
+
+.container-text {
+
+    font-family: var(--parrafo);
+    text-align: center;
+    color:var(--gris);
+}
+.text-member {
+    padding: 10px;
+    text-align: center;
+}
+
+
 .footer{
     width: 100%;
     border: solid 1px #b8b8b9;
