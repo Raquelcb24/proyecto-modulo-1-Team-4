@@ -55,6 +55,15 @@
 .fortalezas, .debilidades{
     margin-left: 15%;
     margin-right: 15%;
+
+.quienes {
+
+    border: solid 1px black;
+}
+.member {
+    display: block;
+    border: solid 1px red;
+   
 }
 .footer{
     width: 100%;
