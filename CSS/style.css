@@ -9,6 +9,10 @@
 .banner{
     position: relative;
 }
+.banner-fondo{
+    background-image: url(../images/pexels-fauxels-3184418.jpg);
+    background-size: 100%;
+}
 .banner-img{
     width: 100vw;
 }
@@ -44,17 +48,33 @@
     text-align: center;
 }
 .fort-deb{
-    background-color: var(--gris-claro);
-    opacity: 0.2;
     margin-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    text-align: center;
+}
+.fort-deb_fondo{
+    background-color: rgba(184,184,185, 0.2);
 }
 .fortalezas, .debilidades{
     margin-left: 15%;
     margin-right: 15%;
+    padding: 25px;
+}
+.fort-deb_titulo{
+    color: var(--verde);
+    font-family: var(--titulo);
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+ 
+}
+.fort-deb_parrafo{
+    color: var(--gris);
+    font-family: var(--parrafo);
+
 }
 
 .quienes-somos {
