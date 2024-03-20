@@ -141,3 +141,44 @@ img {
     max-width: 110px;
 
 }
+
+/* header */
+
+header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;    
+}
+
+h1{
+    color: white;
+    width: 100%;
+    background-color: rgba(9, 157, 141, 0.95);
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    font-family: var(--titulo);
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px;
+    background-color: rgba(20, 217, 196, 0.9);
+    gap: 10px;
+    width: 100%;
+    font-family: var(--titulo);
+}
+
+.navegacion li{
+    list-style: none;
+    font-size: 15px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+}
