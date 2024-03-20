@@ -10,7 +10,10 @@
     position: relative;
 }
 .banner-fondo{
-    background-image: url(../images/pexels-fauxels-3184418.jpg);
+    height: 25vh;
+    background-image: url(../images/banner_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
 }
 .banner-img{
@@ -27,7 +30,6 @@
     top:100%;
     left: 50%;
     transform: translate(-50%, -50%);
-/*    z-index: 100;*/
 }
 .equipo{
     margin-top: 70px;
