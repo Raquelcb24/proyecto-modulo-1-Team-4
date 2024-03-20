@@ -82,7 +82,6 @@
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
-    border: solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,29 +93,29 @@
 .quienes-somos h2 {
     width: 100%;
     padding: 20px;
-    color:var(--aqua);
+    color: var(--verde);
     font-family: var(--titulo);
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
 }
 
 .member {
     display: inline-block;
     flex-wrap: wrap;
-    border: solid 1px red;
-    
-
-   
+      
 }
 
 .imagen{
-
     padding: 20px;
     text-align: center;
 }
 
-img {
+.member-img{
   width: 100px;
-  border: solid 1px black
+  border: solid 5px #b8b8b9;
+  border-radius: 5%;
+  
 }
 
 .container-text {
