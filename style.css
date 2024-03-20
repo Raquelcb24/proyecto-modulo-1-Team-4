@@ -62,11 +62,12 @@
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
-    border: solid 1px black;
+  /*  border: solid 1px black; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+   
     
  
 }
@@ -82,7 +83,7 @@
 .member {
     display: inline-block;
     flex-wrap: wrap;
-    border: solid 1px red;
+   /* border: solid 1px red; */
     
 
    
@@ -110,6 +111,9 @@ img {
     text-align: center;
 }
 
+.listado-miembros {
+    list-style: none;
+}
 
 .footer{
     width: 100%;
