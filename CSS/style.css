@@ -103,9 +103,10 @@
 }
 
 .quienes-somos {
-    margin-top: 70px;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -124,25 +125,45 @@
     font-weight: bold;
     text-align: center;
 }
+.icono{
+    color: var(--verde);
+   
 
+}
+.listado-miembros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
 .member {
     display: inline-block;
     flex-wrap: wrap;
+    
       
 }
 
 .imagen{
+    
     padding: 20px;
+    
     text-align: center;
 }
 
 .member-img{
-  width: 100px;
+  width: 150px;
+  /* height: 150px; */
+  margin: auto;
+ 
   border: solid 5px #b8b8b9;
   border-radius: 5%;
   
 }
-
+.member-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
 .container-text {
 
     font-family: var(--parrafo);
@@ -152,6 +173,7 @@
 .text-member {
     padding: 10px;
     text-align: center;
+    line-height: 1.5;
 }
 
 
