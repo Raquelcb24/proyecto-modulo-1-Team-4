@@ -10,7 +10,10 @@
     position: relative;
 }
 .banner-fondo{
-    background-image: url(../images/pexels-fauxels-3184418.jpg);
+    height: 25vh;
+    background-image: url(../images/banner_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
 }
 .banner-img{
@@ -27,7 +30,6 @@
     top:100%;
     left: 50%;
     transform: translate(-50%, -50%);
-/*    z-index: 100;*/
 }
 .equipo{
     margin-top: 70px;
@@ -82,7 +84,6 @@
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
-    border: solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,29 +95,29 @@
 .quienes-somos h2 {
     width: 100%;
     padding: 20px;
-    color:var(--aqua);
+    color: var(--verde);
     font-family: var(--titulo);
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
 }
 
 .member {
     display: inline-block;
     flex-wrap: wrap;
-    border: solid 1px red;
-    
-
-   
+      
 }
 
 .imagen{
-
     padding: 20px;
     text-align: center;
 }
 
-img {
+.member-img{
   width: 100px;
-  border: solid 1px black
+  border: solid 5px #b8b8b9;
+  border-radius: 5%;
+  
 }
 
 .container-text {
