@@ -149,9 +149,8 @@
 }
 .member-1, .member-2 {
     display: inline-block;
-    flex-wrap: wrap;
     
-      
+         
 }
 
 
@@ -282,6 +281,12 @@ h1{
         flex-direction: row-reverse;
         
 
+    }
+
+    .container-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 @media screen and (min-width: 1200px){
