@@ -3,7 +3,12 @@ header{
     z-index: 100;
     top: 0;
     left: 0;
-    width: 100%;    
+    width: 100%;   
+    @media (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(9, 157, 141, 0.95);
+    } 
 }
 
 h1{
@@ -16,6 +21,14 @@ h1{
     padding: 15px;
     font-weight: 500;
     font-family: var(--titulo);
+    @media (min-width: 768px){
+        background-color: transparent;
+        text-align: left;
+        margin-left: 45px;
+    }
+    @media (min-width: 1200px){
+        margin-left: 142px;
+    }
 }
 
 .navegacion {
@@ -30,6 +43,14 @@ h1{
     gap: 10px;
     width: 100%;
     font-family: var(--titulo);
+    @media (min-width: 768px){
+      background-color: transparent;
+      justify-content: flex-end;
+      width: 100%;
+      padding: 15px;
+      gap: 20px;
+      
+    } 
 }
 
 .navegacion li{
@@ -40,4 +61,14 @@ h1{
 .navegacion a{
     text-decoration: none;
     color: white;
+}
+
+nav {
+    @media (min-width: 768px){
+        width: 100%;
+        margin-right: 45px;
+    }
+    @media (min-width: 1200px){
+        margin-right: 138px;
+    }
 }
