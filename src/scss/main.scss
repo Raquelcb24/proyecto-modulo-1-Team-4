@@ -34,21 +34,52 @@
     .member-1{
         display: flex;
         flex-direction: row;
-        
-
     }
+
     .member-2{
         display: flex;
         flex-direction: row-reverse;
-        
-
     }
 
     .container-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
     }
+
+    .text-member1 {
+        text-align: left;
+        padding-right: 70px;
+
+    }
+
+    .text-member2 {
+        text-align: right;
+        padding-left: 70px;
+
+    }
+    .member-name1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .member-name2 {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .listado-miembros1 {
+        display: flex;
+        justify-content: left;
+        padding-left: 10px;
+    }
+
+    .listado-miembros2 {
+        display: flex;
+        justify-content: right;
+        padding-right: 10px;
+    }
+
     .banner-span{
         opacity: 0.75;
         padding: 2%;
