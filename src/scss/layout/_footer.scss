@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    border: solid 1px #b8b8b9;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    
+}
+.nombre-grupo{
+    color: var(--gris-claro);
+    font-family: var(--parrafo);
+    font-size: 14px;
+    text-align: center;
+}
+.menu-footer{
+    color: var(--gris); 
+    opacity: 0.7;
+    font-size: 14px;
+    font-family: var(--parrafo);
+    line-height: 20px;
+    font-weight: 600;
+    list-style: none;
+    text-align: center;
+}
+.imagen-logo {
+    width: 100%;
+    max-width: 110px;
+
+}
