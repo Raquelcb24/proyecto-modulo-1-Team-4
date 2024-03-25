@@ -1,0 +1,27 @@
+.banner{
+    position: relative;
+}
+.banner-fondo{
+    height: 30vh;
+    background-image: url(../images/banner_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+.banner-img{
+    width: 100vw;
+}
+.banner-span{
+    display: inline-block;
+    background-color: white;
+    font-family: var(--parrafo);
+    font-weight: 600;
+    padding: 5%;
+    width: 95%;
+    position: absolute;
+    /*translate: 50%, 50%;*/
+    top:105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}

@@ -9,263 +9,24 @@
 */
 
 @import 'core/reset';
-:root{
-    --verde: #099d8d;
-    --aqua:#14d9c4;
-    --gris: #54585a;
-    --gris-claro: #b8b8b9;
-    --parrafo: "Open Sans", sans-serif;
-    --titulo: "Rubik", sans-serif;
-    --interlineado: 1.5;
-}
-.banner{
-    position: relative;
-}
-.banner-fondo{
-    height: 30vh;
-    background-image: url(../images/banner_medium.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-}
-.banner-img{
-    width: 100vw;
-}
-.banner-span{
-    display: inline-block;
-    background-color: white;
-    font-family: var(--parrafo);
-    font-weight: 600;
-    padding: 5%;
-    width: 95%;
-    position: absolute;
-    /*translate: 50%, 50%;*/
-    top:105%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-}
-.equipo{
-    /*position: relative;*/
-    margin-top: 70px;
-    margin-left: 15%;
-    margin-right: 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.equipo h2{
-    color:var(--aqua);
-    font-family: var(--titulo);
-    font-weight: 500;
-    font-size: 24px;
-}
-.equipo p{
-    padding-top: 20px;
-    color:var(--gris);
-    font-family: var(--parrafo);
-    line-height: var(--interlineado);
-    text-align: center;
-}
-.rombo-blanco{
+@import 'core/variables';
 
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    translate: 0% -50%;
-    transform: rotate(45deg);
+@import  'layout/header';
 
-}
-.fort-deb{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    text-align: center;
+@import 'layout/banner';
 
-}
-.fort-deb_fondo{
-    background-color: rgba(184,184,185, 0.2);
-    padding-top: 45px;
-    padding-bottom: 45px;
-}
-.fortalezas, .debilidades{
-    margin-left: 15%;
-    margin-right: 15%;
+@import 'layout/equipo';
 
-}
-.fortalezas{
-    padding-bottom: 30px;
-}
-.fort-deb_titulo{
-    color: var(--verde);
-    font-family: var(--titulo);
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 10px;
- 
-}
-.fort-deb_parrafo{
-    color: var(--gris);
-    font-family: var(--parrafo);
-    line-height: var(--interlineado);
-}
+@import 'layout/fortdeb';
 
-.quienes-somos {
-    padding-top: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 25px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    
- 
-}
+@import 'layout/quienes';
 
-.quienes-somos h2 {
-    width: 100%;
-    padding: 20px;
-    color: var(--verde);
-    font-family: var(--titulo);
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-}
-.icono{
-    color: var(--verde);
-   
-
-}
-.listado-miembros{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
-.member-1, .member-2 {
-    display: inline-block;
-    
-         
-}
+@import 'layout/footer';
 
 
-.imagen{
-    
-    padding: 20px;
-    
-    text-align: center;
-}
-
-.member-img{
-  width: 150px;
-  /* height: 150px; */
-  margin: auto;
- 
-  border: solid 5px #b8b8b9;
-  border-radius: 5%;
-  
-}
-.member-name{
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-}
-.container-text {
-
-    font-family: var(--parrafo);
-    text-align: center;
-    color:var(--gris);
-}
-.text-member {
-    padding: 10px;
-    text-align: center;
-    line-height: 1.5;
-}
 
 
-.footer{
-    width: 100%;
-    border: solid 1px #b8b8b9;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 250px;
-    
-}
-.nombre-grupo{
-    color: var(--gris-claro);
-    font-family: var(--parrafo);
-    font-size: 14px;
-    text-align: center;
-}
-.menu-footer{
-    color: var(--gris); 
-    opacity: 0.7;
-    font-size: 14px;
-    font-family: var(--parrafo);
-    line-height: 20px;
-    font-weight: 600;
-    list-style: none;
-    text-align: center;
-}
-.imagen-logo {
-    width: 100%;
-    max-width: 110px;
-
-}
-
-/* header */
-
-header{
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: 100%;    
-}
-
-h1{
-    color: white;
-    width: 100%;
-    background-color: rgba(9, 157, 141, 0.95);
-    font-size: 16px;
-    text-align: center;
-    line-height: 30px;
-    padding: 15px;
-    font-weight: 500;
-    font-family: var(--titulo);
-}
-
-.navegacion {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 8px;
-    padding-bottom: 7px;
-    line-height: 30px;
-    background-color: rgba(20, 217, 196, 0.9);
-    font-weight: 500;
-    gap: 10px;
-    width: 100%;
-    font-family: var(--titulo);
-}
-
-.navegacion li{
-    list-style: none;
-    font-size: 15px;
-}
-
-.navegacion a{
-    text-decoration: none;
-    color: white;
-}
 
 @media screen and (min-width: 768px){
     
@@ -296,7 +57,4 @@ h1{
         left: 5%;
         transform: translate(0%, -100%);
     }
-}
-@media screen and (min-width: 1200px){
-    
 }

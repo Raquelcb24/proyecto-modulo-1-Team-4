@@ -1,0 +1,22 @@
+.equipo{
+    /*position: relative;*/
+    margin-top: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.equipo h2{
+    color:var(--aqua);
+    font-family: var(--titulo);
+    font-weight: 500;
+    font-size: 24px;
+}
+.equipo p{
+    padding-top: 20px;
+    color:var(--gris);
+    font-family: var(--parrafo);
+    line-height: var(--interlineado);
+    text-align: center;
+}
