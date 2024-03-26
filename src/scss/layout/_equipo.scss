@@ -8,12 +8,15 @@
     align-items: center;
 }
 .equipo h2{
-    color:var(--verde);
+    color:var(--aqua);
     font-family: var(--titulo);
     font-weight: 500;
     font-size: 24px;
     padding-top: 120px;
     margin-top: -120px;
+    @media screen and (min-width:768px) {
+        color: var(--verde);
+    }
 }
 .equipo p{
     padding-top: 20px;
@@ -21,4 +24,9 @@
     font-family: var(--parrafo);
     line-height: var(--interlineado);
     text-align: center;
+    @media screen and (min-width:1200px) {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    
+    }
 }

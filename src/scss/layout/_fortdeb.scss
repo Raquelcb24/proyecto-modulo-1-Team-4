@@ -27,7 +27,10 @@
 .fortalezas, .debilidades{
     margin-left: 45px;
     margin-right: 45px;
-
+    @media screen and (min-width: 1200px){
+        padding-left: 8%;
+        padding-right: 8%;
+    }
 }
 .fortalezas{
     padding-bottom: 30px;
