@@ -36,6 +36,13 @@
 }
 .member-1, .member-2 {
     display: inline-block;  
+
+    @media screen and (min-width: 1200px){
+        display: flex;
+        padding-left: 250px;
+        padding-right: 250px;
+        
+    }
          
 }
 
@@ -68,12 +75,37 @@
     text-align: center;
     color:var(--gris);
     gap: 10px;
+
+    @media screen and (min-width: 1200px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 }
-.text-member1, .text-member2 {
+.text-member1 {
     padding: 10px;
     text-align: center;
     line-height: 1.5;
 
-   
+    @media screen and (min-width: 1200px){
+        margin-right: 250px;
+        
+        
+    }
+
+    }
+
+    .text-member2 {
+    
+        padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+
+    @media screen and (min-width: 1200px){
+        margin-left: 250px;
+        
+    }
+
     }
 
