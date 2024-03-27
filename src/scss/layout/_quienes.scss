@@ -24,10 +24,15 @@
     padding-top: 140px;
     margin-top: -120px;
 }
-.icono{
+.icono, .icono1{
     color: var(--verde);
+    
    
 
+}
+
+.icono::after{
+    content: " · ";
 }
 .listado-miembros1, .listado-miembros2{
     display: flex;
