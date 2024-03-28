@@ -2,11 +2,16 @@
     position: relative;
 }
 .banner-fondo{
-    height: 30vh;
-    background-image: url(../images/banner_medium.jpg);
+    height: 50vh;
+    background-image: url(../images/codigo-cara_small.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top center;
     background-size: 100%;
+    @media screen and (width >= 768px){
+        background-image: url(../images/codigo-cara_big.jpg);
+        height: 50vh;
+        background-position: center;
+    }
 }
 .banner-img{
     width: 100vw;
