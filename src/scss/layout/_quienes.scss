@@ -28,9 +28,15 @@
 
 .enlace{
     text-decoration: none;
+    
 }
 .icono, .icono1{
     color: var(--verde);
+    transition: transform 0.5s;
+    :hover{
+        transform: scale(1.2);
+        filter: brightness(120%);
+    }
     
 }
 
