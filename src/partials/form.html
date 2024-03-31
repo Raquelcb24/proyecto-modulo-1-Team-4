@@ -1,0 +1,30 @@
+<form action="https://dev.adalab.es/api/form" method="get">
+    <fieldset class="form">
+        <!-- los asteriscos no los he metido porque a lo mejor se puede hacer con la pseudoclase de :after pero ni idea -->
+        <div class="tag">
+            <label for="fullName">Nombre completo <span>*</span></label>
+            <input class="field" type="text" id="fullName" name="fullName" placeholder="Nombre..." required />
+        </div>
+        <div class="mailphone">
+            <div class="tag">
+                <div class="email">
+                    <label for="emailAddress">Correo electrónico <span>*</span></label>
+                    <input class="field"  type="email" id="emailAddress" name="emailAddress" value="nombre.apellido@mail.com" required/>
+                </div>
+            </div>
+            <div class="tag">
+                <div class="mobile">
+                    <label for="mobileNumber">Teléfono</label>
+                    <input class="field" type="tel" id="mobileNumber" name="mobileNumber" placeholder="Ej. 123456789" />
+                </div>
+            </div>
+        </div>
+        <div class="tag">
+            <label for="messages">Mensaje <span>*</span></label>
+            <textarea id="messages" name="messages" placeholder="¿Qué necesitas?" required></textarea>
+        </div>
+        <div class="submit">
+            <input class="submit" type="submit" value="ENVIAR" />
+        </div>
+    </fieldset>
+</form>
