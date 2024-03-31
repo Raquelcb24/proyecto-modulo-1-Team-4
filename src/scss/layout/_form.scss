@@ -58,12 +58,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    
     }
     .submit{
     width: 20vw;
-    display: flex;
-    justify-content: center;
+    display: block;
+    align-items: flex-start;
+    align-self: flex-end;
+    text-align: center;
+    
+    
     }
+
+   
     .tag{
         width: 50vw;
        display: flex;
@@ -73,12 +82,26 @@
     }
 }
 @media screen and (min-width: 1200px){
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+   /* .submit{
+        display: block;
+        align-items: flex-start;
+        align-self: flex-end;
+        text-align: center;
+    } */
+
     .mailphone{
         display: flex;
         flex-direction: row;
         gap: 150px;
-        width: 50vw;
-       
+        width: 50vw;   
         
     }
     .mail{
@@ -89,4 +112,7 @@
         width: 20vw;
        
     }
+
+   
+  
 }
