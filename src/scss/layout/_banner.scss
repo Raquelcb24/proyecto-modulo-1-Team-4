@@ -2,11 +2,13 @@
     position: relative;
 }
 .banner-fondo{
+    /*height: 50vh;*/
     height: 50vh;
     background-image: url(../images/foto-team.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100%;
+    background-size: cover;
+    position: relative;
     @media screen and (width >= 768px){
         background-image: url(../images/foto-team.jpg);
         height: 50vh;
@@ -25,7 +27,7 @@
     width: 95%;
     position: absolute;
     /*translate: 50%, 50%;*/
-    top:105%;
+    top:100%;
     left: 50%;
     transform: translate(-50%, -50%);
     @media screen and (min-width:768px) {
