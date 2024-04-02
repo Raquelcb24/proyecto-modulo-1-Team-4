@@ -42,7 +42,7 @@
         background-color: #F0EFF0;
     }
 }
-.submit {
+.submit__button {
     
     background-color: var(--verde);
     border-radius: 4px;
@@ -62,15 +62,7 @@
     margin-right: 175px;
     
     }
-    .submit{
-    width: 20vw;
-    display: block;
-    align-items: flex-start;
-    align-self: flex-end;
-    text-align: center;
-    
-    
-    }
+   
 
    
     .tag{
@@ -89,12 +81,14 @@
         margin-left: 350px;
         margin-right: 350px;
     }
-   /* .submit{
+    .submit{
         display: block;
         align-items: flex-start;
         align-self: flex-end;
-        text-align: center;
-    } */
+        
+    }
+
+    
 
     .mailphone{
         display: flex;
