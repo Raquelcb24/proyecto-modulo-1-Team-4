@@ -62,11 +62,17 @@
     margin-right: 175px;
     
     }
+
+    .submit-box {
+        width: 50vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .submit{
     width: 20vw;
     display: block;
-    align-items: flex-start;
-    align-self: flex-end;
+
     text-align: center;
     
     
@@ -118,5 +124,6 @@
     .tag-mobile {
         width: 35%;
     }
+
   
 }
